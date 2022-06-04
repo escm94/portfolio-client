@@ -13,6 +13,7 @@ const Project = ({
   image,
   index,
   slug,
+  Features,
 }) => {
   return (
     <article className="project">
@@ -27,6 +28,7 @@ const Project = ({
           <h3>{title}</h3>
         </Link>
         <p className="project-desc">{description}</p>
+        <p className="project-desc">{Features}</p>
         <div className="project-stack">
           {stack.map(item => {
             return <span key={item.id}>{item.title}</span>

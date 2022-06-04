@@ -13,6 +13,7 @@ const ProjectTemplate = ({ pageContext: { title }, data }) => {
       <main className="project-template-page">
         <h2>{title}</h2>
         <p>{data.strapiProject.description}</p>
+        <p>{data.strapiProject.Features}</p>
       </main>
     </>
   )
@@ -28,6 +29,7 @@ export const query = graphql`
           publicURL
         }
       }
+      Features
     }
   }
 `

@@ -698,7 +698,7 @@ Projects
   color: var(--clr-primary-5);
 }
 .project-desc {
-  word-spacing: 15px;
+  word-spacing: 5px;
   color: var(--clr-grey-3);
 }
 .project-stack {
