@@ -548,6 +548,62 @@ Services
   }
 }
 
+/* TODO: rewrite this section to be mobile-first */
+/*
+=============== 
+Skills
+===============
+*/
+.skills-outer-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr 1fr;
+}
+.skills-icon-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+.skill-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+}
+.skills-text-outer-container {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  border-right: 2px solid var(--clr-grey-1);
+}
+.skills-text-type-container {
+  margin-bottom: 2rem;
+}
+.skills-text-inner-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.skill-text {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+.skills_category-name {
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 600px) {
+  .skills-icon-container {
+    display: none;
+  }
+  .skills-text-outer-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    border-right: none;
+  }
+  .skills-outer-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+  }
+}
+
 /*
 =============== 
 Jobs
