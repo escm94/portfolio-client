@@ -554,25 +554,31 @@ Services
 Skills
 ===============
 */
+.skills-section {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
 .skills-outer-container {
   display: grid;
-  grid-template-columns: 1.5fr 3fr 3fr 1.5fr;
+  grid-template-columns: 1fr 1fr;
 }
 .skills-icon-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
+  padding-left: 1rem;
 }
 .skill-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3em;
+  padding-left: 4em;
 }
 .skills-text-outer-container {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   border-right: 2px solid var(--clr-grey-1);
+  padding-left: 1rem;
 }
 .skills-text-type-container {
   margin-bottom: 2rem;
@@ -598,7 +604,7 @@ Skills
     grid-template-rows: repeat(3, 1fr);
     border-right: none;
   }
-  .skills-outer-container {
+  .skills-section {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
   }
