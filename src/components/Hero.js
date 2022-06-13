@@ -1,15 +1,23 @@
 import React from "react"
 import { Link } from "gatsby"
 import socialLinks from "../constants/social_links"
-// import heroImg from "../assets/images/hero.svg"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Hero = () => {
   return (
     <header className="hero">
       <section className="section-center hero-center">
-        <article className="hero-info">
-          <div>
+        <div className="hero-img-outer-container">
+          <div className="hero-img-container">
+            <StaticImage
+              src="../assets/images/profile-pic.jpg"
+              className="hero-img"
+              alt="portfolio picture"
+            />
+          </div>
+        </div>
+        <div className="hero-info">
+          <article>
             <div className="underline"></div>
             <h1>Matt Escalante</h1>
             <h4>Full Stack Web Developer</h4>
@@ -30,15 +38,8 @@ const Hero = () => {
                 )
               })}
             </div>
-          </div>
-        </article>
-        <StaticImage
-          src="../assets/images/hero.svg"
-          alt="portfolio"
-          className="hero-img"
-          placeholder="blurred"
-        />
-        {/* <img src={heroImg} alt="portfolio" className="hero-img-svg"> */}
+          </article>
+        </div>
       </section>
     </header>
   )
