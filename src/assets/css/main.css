@@ -410,7 +410,7 @@ Hero
 .hero {
   margin-top: -5rem;
   padding-top: 5rem;
-  height: 115vh;
+  height: 100vh;
   background: var(--clr-primary-10);
   position: relative;
 }
@@ -453,9 +453,6 @@ Hero
 }
 
 @media screen and (min-width: 500px) {
-  .hero {
-    height: 100vh;
-  }
   .hero::before {
     content: "";
     position: absolute;
