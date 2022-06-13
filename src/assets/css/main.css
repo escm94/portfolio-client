@@ -436,7 +436,7 @@ Hero
 .hero-img {
   width: 100%;
   height: auto;
-  border-radius: 50%;
+  border-radius: 0.5rem;
   display: block;
 }
 .hero-img-svg {
@@ -484,6 +484,9 @@ Hero
   .hero-img-container {
     width: 200px;
     height: 120px;
+  }
+  .hero-img {
+    border-radius: 50%;
   }
   .hero-img-svg {
     width: 100%;
