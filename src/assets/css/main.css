@@ -410,7 +410,7 @@ Hero
 .hero {
   margin-top: -5rem;
   padding-top: 5rem;
-  height: 100vh;
+  height: 115vh;
   background: var(--clr-primary-10);
   position: relative;
 }
@@ -436,7 +436,7 @@ Hero
 .hero-img {
   width: 100%;
   height: auto;
-  border-radius: 0.5rem;
+  border-radius: 50%;
   display: block;
 }
 .hero-img-svg {
@@ -453,6 +453,9 @@ Hero
 }
 
 @media screen and (min-width: 500px) {
+  .hero {
+    height: 100vh;
+  }
   .hero::before {
     content: "";
     position: absolute;
@@ -481,9 +484,6 @@ Hero
   .hero-img-container {
     width: 200px;
     height: 120px;
-  }
-  .hero-img {
-    border-radius: 50%;
   }
   .hero-img-svg {
     width: 100%;
