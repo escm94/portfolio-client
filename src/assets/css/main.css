@@ -555,7 +555,6 @@ Services
   }
 }
 
-/* TODO: rewrite this section to be mobile-first */
 /*
 =============== 
 Skills
@@ -619,6 +618,9 @@ Skills
   }
   .skills-icon-container {
     display: none;
+  }
+  .skills-text-type-container {
+    margin-bottom: -2rem;
   }
 }
 

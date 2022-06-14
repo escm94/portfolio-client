@@ -74,12 +74,12 @@ const skillListItemsBackend = [
   },
   {
     id: 2,
-    text: "Mongo",
+    text: "MongoDB",
   },
 
   {
     id: 3,
-    text: "Deno",
+    text: "C#",
   },
   {
     id: 4,
@@ -129,7 +129,7 @@ const skillListItemsOthers = [
   },
   {
     id: 2,
-    text: "Responsive Design",
+    text: "Agile",
   },
   {
     id: 3,
@@ -137,15 +137,15 @@ const skillListItemsOthers = [
   },
   {
     id: 4,
-    text: "SEO",
+    text: "CI/CD",
   },
   {
     id: 5,
-    text: "Scrum",
+    text: "Netlify",
   },
   {
     id: 6,
-    text: "Netlify",
+    text: "Responsive Design",
   },
 ]
 
