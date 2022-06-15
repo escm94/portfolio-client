@@ -27,6 +27,7 @@ const contact = () => {
                 placeholder="message"
                 className="form-control"
               ></textarea>
+              <input type="hidden" name="form-name" value="contact" />
               <button type="submit" className="submit-btn btn">
                 submit here
               </button>
