@@ -972,6 +972,10 @@ Contact Page
   place-items: center;
   padding: 5rem 0;
 }
+.contact-description {
+  text-align: left;
+  padding: 1rem 1.5rem;
+}
 .contact-form {
   background: var(--clr-white);
   border-radius: var(--radius);
@@ -999,13 +1003,12 @@ Contact Page
   margin-bottom: 1.25rem;
   background: var(--clr-grey-10);
   border-radius: var(--radius);
-  text-transform: uppercase;
   letter-spacing: var(--spacing);
 }
 .form-control::placeholder {
   font-family: var(--ff-primary);
   color: var(--clr-grey-1);
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: var(--spacing);
 }
 .submit-btn {
