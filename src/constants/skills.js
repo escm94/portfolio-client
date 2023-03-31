@@ -1,45 +1,41 @@
 import React from "react"
-import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaReact,
-  FaGitAlt,
-  FaNodeJs,
-} from "react-icons/fa"
+import { FaJs, FaReact, FaNodeJs } from "react-icons/fa"
 import {
   SiTypescript,
   SiTailwindcss,
   SiMongodb,
-  SiDeno,
+  SiGitlab,
+  SiGatsby,
+  SiGraphql,
+  SiGithub,
   SiVisualstudiocode,
-  SiNetlify,
+  SiPostman,
 } from "react-icons/si"
 
 const skillIcons = [
   {
     id: 1,
-    icon: <FaHtml5 size="50px" title="HTML"></FaHtml5>,
-  },
-  {
-    id: 2,
-    icon: <FaCss3 size="50px" title="CSS"></FaCss3>,
-  },
-  {
-    id: 3,
     icon: <FaJs size="50px" title="JavaScript"></FaJs>,
   },
   {
-    id: 4,
-    icon: <SiTypescript size="50px" title="TypeScript"></SiTypescript>,
-  },
-  {
-    id: 5,
+    id: 2,
     icon: <FaReact size="50px" title="React"></FaReact>,
   },
   {
-    id: 6,
+    id: 3,
     icon: <SiTailwindcss size="50px" title="Tailwind CSS"></SiTailwindcss>,
+  },
+  {
+    id: 4,
+    icon: <SiPostman size="50px" title="Postman"></SiPostman>,
+  },
+  {
+    id: 5,
+    icon: <SiGatsby size="50px" title="Gatsby"></SiGatsby>,
+  },
+  {
+    id: 6,
+    icon: <SiTypescript size="50px" title="TypeScript"></SiTypescript>,
   },
   {
     id: 7,
@@ -51,74 +47,65 @@ const skillIcons = [
   },
   {
     id: 9,
-    icon: <SiDeno size="50px" title="Deno"></SiDeno>,
+    icon: <SiGraphql size="50px" title="GraphQL"></SiGraphql>,
   },
   {
     id: 10,
-    icon: <FaGitAlt size="50px" title="GitHub"></FaGitAlt>,
+    icon: <SiGithub size="50px" title="GitHub"></SiGithub>,
   },
   {
     id: 11,
-    icon: <SiNetlify size="50px" title="Netlify"></SiNetlify>,
+    icon: <SiVisualstudiocode size="50px" title="VS Code"></SiVisualstudiocode>,
   },
   {
     id: 12,
-    icon: <SiVisualstudiocode size="50px" title="VS Code"></SiVisualstudiocode>,
+    icon: <SiGitlab size="50px" title="GitLab"></SiGitlab>,
   },
 ]
 
 const skillListItemsBackend = [
   {
     id: 1,
-    text: "Node",
+    text: "Node/Express",
   },
   {
     id: 2,
-    text: "MongoDB",
+    text: "ASP.NET Core",
   },
-
   {
     id: 3,
-    text: "C#",
+    text: "MongoDB",
   },
   {
     id: 4,
-    text: "GraphQL",
-  },
-  {
-    id: 5,
-    text: "SQL",
-  },
-  {
-    id: 6,
-    text: "REST API",
+    text: "MS SQL Server",
   },
 ]
 
 const skillListItemsFrontend = [
   {
     id: 1,
-    text: "HTML",
+    text: "JavaScript",
   },
   {
     id: 2,
-    text: "CSS",
-  },
-  {
-    id: 3,
-    text: "Javascript",
-  },
-  {
-    id: 4,
-    text: "TypeScript",
-  },
-  {
-    id: 5,
     text: "React",
   },
   {
-    id: 6,
+    id: 3,
     text: "Tailwind CSS",
+  },
+  {
+    id: 4,
+    text: "Gatsby",
+  },
+  {
+    id: 5,
+    text: "Next",
+  },
+  {
+    id: 6,
+    text: "Vue",
   },
 ]
 
@@ -129,23 +116,23 @@ const skillListItemsOthers = [
   },
   {
     id: 2,
-    text: "Agile",
+    text: "Unit Testing",
   },
   {
     id: 3,
-    text: "VS Code",
+    text: "OO Principles",
   },
   {
     id: 4,
-    text: "CI/CD",
+    text: "REST API",
   },
   {
     id: 5,
-    text: "Netlify",
+    text: "CI/CD",
   },
   {
     id: 6,
-    text: "Responsive Design",
+    text: "Agile Development",
   },
 ]
 
