@@ -38,9 +38,11 @@ const Project = ({
           <a href={github} target="_blank">
             <FaGithubSquare className="project-icon"></FaGithubSquare>
           </a>
-          <a href={url} target="_blank">
-            <FaShareSquare className="project-icon"></FaShareSquare>
-          </a>
+          {url && (
+            <a href={url} target="_blank">
+              <FaShareSquare className="project-icon"></FaShareSquare>
+            </a>
+          )}
         </div>
       </div>
     </article>
